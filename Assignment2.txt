@@ -1,0 +1,3 @@
+Consider a rectangular domain of unit size. The bottom and left boundaries are at constant temperature 0, where as the upper and right boundaries have temperature 1.  Generate unstructured mesh of numbers with order (100, 1000 and 10000) using gmesh. Obtain finite element matrix A for Laplace equation. Is this a symmetric matrix? If not, then replace A with 1/2[A+A(transpose)]. Solve the resulting Ax=b problem using SOR (optimum), Steepest descent, MR, CG and BICGSTAB. Report number of iterations for same convergence and computing time.
+
+Repeat the same for structured mesh that gives FDM matrix. 
